@@ -1,0 +1,76 @@
+
+/* ul elements */
+.variation-items-ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Button color */
+.variation-items-ul .variation-items-li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    background-color: white;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: auto;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 1px 5px 1px 5px;
+    box-shadow: 0 0 0 1px #000000;
+}
+
+/* Hover buttons color */
+.variation-items-li:hover {
+    background-color: rgb(100, 100, 100);
+}
+
+/* Button selected */
+.button-selected {
+    box-shadow: 0 0 0 2px #000000 !important;
+    background-color: #a46497 !important;   
+}
+
+.button-selected span {
+    color: black;
+}
+
+/* Button disabled */
+.variation-items-ul li.button-disabled {
+    pointer-events: none;
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 100 100'><path d='M100 0 L0 100 ' stroke='black' stroke-width='1'/><path d='M0 0 L100 100 ' stroke='black' stroke-width='1'/></svg>");
+    background-color: #cccccc !important;
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: 100% 100%, auto;
+}
+
+/* Text color inside buttons */
+.variation-item-span {
+    color: black;
+}
+
+/* Hide select */
+table.variations {
+    display: none !important;
+}
+
+/* Hide in stock */
+.woocommerce-variation-availability {
+    display: none !important;
+}
+
+/* Div container lb-available-attributes */
+.lb-available-attributes {
+    margin-bottom: 3%;
+}
+
+/* Clear button */
+.lb-clear-button {
+    color: #c36;
+    cursor: pointer;
+    font-size: 12px;
+    margin-bottom: 3%;
+    visibility: hidden;
+}
